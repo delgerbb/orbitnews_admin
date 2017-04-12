@@ -1,0 +1,59 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 6, 2015, 11:01:22 AM
+    Author     : delgerbayar
+*/
+
+.styleRemoveImageBox{
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    position: relative;
+}
+.ulliCPProductMenu{
+    list-style: none;
+    margin-right: 5px;
+}
+.ulliCPProductMenu a::after{
+    content: " - ";
+}
+.ulliCPProductMenu a{
+    color:#686868;
+    text-decoration: none;
+}
+.ulliCPProductMenu a:hover{
+    color:#d15050;
+}
+.perProPicContainer{
+    background: #466baf;
+    margin: 10px 0;
+    padding: 5px;
+    border-radius: 3px;
+    color: #FFF;
+}
+.perCatalogPicContainer{
+    background: #466baf;
+    margin: 10px 0;
+    padding: 5px;
+    border-radius: 3px;
+    color: #FFF;
+}
+
+.perLookbookPicContainer{
+    background: #466baf;
+    margin: 10px 0;
+    padding: 5px;
+    border-radius: 3px;
+    color: #FFF;
+}
+.perDailyNewsPicContainer{
+    background: #466baf;
+    margin: 10px 0;
+    padding: 5px;
+    border-radius: 3px;
+    color: #FFF;
+}
